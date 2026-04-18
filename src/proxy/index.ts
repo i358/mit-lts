@@ -100,11 +100,7 @@ const globalCache = globalStore.collection("globalCache");
       proxyLogger.info("Starting Timer Worker..."); 
       const { timerWorker } = await import("../workers/timer");
       await timerWorker.start(); 
-<<<<<<< HEAD
-      let pkg = new HPacket(`{out:GetGuestRoom}{i:12530483}{i:0}{i:1}`)
-=======
-      let pkg = new HPacket(`{out:GetGuestRoom}{i:12447139}{i:0}{i:1}`)
->>>>>>> cd4ec7b1066b3857accabc3a6118b333f2e44bf4
+
       let pkg2 = new HPacket(`{out:MoveAvatar}{i:4}{i:48}`)
     
      setTimeout(()=>{
