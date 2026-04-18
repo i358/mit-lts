@@ -1,0 +1,32 @@
+{
+  "groups": {
+    "VIP - Lounge": {
+      "id": 99156,
+      "type": "vip_lounge"
+    },
+    "Special Members": {
+      "id": 99176,
+      "type": "special_members"
+    },
+    "Özel Misafir": {
+      "id": 99157,
+      "type": "special_members"
+    },
+    "Elite Members": {
+      "id": 103060,
+      "type": "special_members"
+    },
+    "Maaş Yetkilileri": {
+      "id": 99167,
+      "type": "salary_personal"
+    },
+    "AFK EKİBİ": {
+      "id": 75710,
+      "type": "afk_personal"
+    },
+    "Founders": {
+    "id": 103063,
+    "type":"authoritative"
+  }
+  }
+}

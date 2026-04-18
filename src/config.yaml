@@ -1,0 +1,85 @@
+# Configuration
+# Fill in your actual values
+
+app:
+  INITIALIZED: true
+  ENVIRONMENT: development
+  PRODUCTION_NAME: MIT
+  MAIN_ROOM_ID: YOUR_MAIN_ROOM_ID
+  LOG_LEVEL: debug
+  SPOTTER:
+    ID: YOUR_SPOTTER_ID
+  DISCORD_BOT:
+    ACTIVE: true
+    GUILD_ID: "YOUR_DISCORD_GUILD_ID"
+    CLIENT_ID: "YOUR_DISCORD_CLIENT_ID"
+    CHANNELS:
+      LOGS: "YOUR_LOGS_CHANNEL_ID"
+      EVENTS: "YOUR_EVENTS_CHANNEL_ID"
+      COMMANDS: "YOUR_COMMANDS_CHANNEL_ID"
+      BADGE_LOG: "YOUR_BADGE_LOG_CHANNEL_ID"
+      DEMOTE_LOG: "YOUR_DEMOTE_LOG_CHANNEL_ID"
+      MULTIBADGE_LOG: "YOUR_MULTIBADGE_LOG_CHANNEL_ID"
+      SITE_LOG: "YOUR_SITE_LOG_CHANNEL_ID"
+      TRAINING_LOG: "YOUR_TRAINING_LOG_CHANNEL_ID"
+    ADMINS:
+      - "YOUR_ADMIN_USER_ID_1"
+      - "YOUR_ADMIN_USER_ID_2"
+      - "YOUR_ADMIN_USER_ID_3"
+    LOG_LEVEL: debug
+paths:
+  API_DIR: api
+  PROXY_DIR: proxy
+  LOGS_DIR: logs
+  TEMP_DIR: temp
+  BOT_DIR: bot
+  CACHE_DIR: cache
+proxy:
+  ACTIVE: true
+  LOG_LEVEL: debug
+api:
+  ACTIVE: true
+  HOST: 0.0.0.0
+  PORT: 8000
+  VERSION: v1
+  BASE_PATH: /api
+  CORS_CONFIG:
+    origin:
+      - https://www.habbojoh.com.tr
+      - https://habbojoh.com.tr
+      - https://beta.habbojoh.com.tr
+      - https://live.habbojoh.com.tr
+    methods:
+      - GET
+      - POST
+      - PUT
+      - DELETE
+      - PATCH
+      - OPTIONS
+    allowedHeaders:
+      - Content-Type
+      - Authorization
+      - Accept
+    credentials: true
+    exposedHeaders:
+      - Content-Length
+      - X-JSON-Response-Size
+  RATE_LIMIT:
+    MAX: 100
+    TIME_WINDOW: 1 minute
+  GRAPHQL:
+    ENABLED: true
+    PLAYGROUND: true
+    INTROSPECTION: true
+    SUBSCRIPTIONS: true
+    ENDPOINT: /graphql
+  REST:
+    ENABLED: true
+    ENDPOINT: /rest
+  SECURITY:
+    JWT_SECRET: your_jwt_secret_key_change_this_in_production
+    TOKEN_EXPIRY: 24h
+  EPOCH: 1757915539
+  MAX_REQUEST_LIMIT: 5
+  TIMEOUT: 2500
+  LOG_LEVEL: debug

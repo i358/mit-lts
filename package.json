@@ -1,0 +1,54 @@
+{
+  "name": "habbotoh",
+  "version": "1.0.0",
+  "main": "dist/src/run.js",
+  "scripts": {
+    "build": "tsc && npm run copy-assets",
+    "copy-assets": "powershell -Command \"Copy-Item -Path 'src\\*.yaml' -Destination 'dist\\src\\' -Force -ErrorAction SilentlyContinue; Copy-Item -Path '.env*' -Destination 'dist\\' -Force -ErrorAction SilentlyContinue\"",
+    "dev": "tsc --watch",
+    "start": "nodemon --no-warnings dist/src/run.js -p 9092",
+    "start-verbose": "node dist/src/run.js",
+    "clean": "powershell -Command \"if (Test-Path 'dist') { Remove-Item -Recurse -Force 'dist' }\"",
+    "test": "npm run test:db",
+    "test:db": "tsc && node dist/tests/runDatabaseTests.js",
+    "test:postgres": "tsc && node dist/tests/runDatabaseTests.js --postgres",
+    "test:redis": "tsc && node dist/tests/runDatabaseTests.js --redis",
+    "test:integration": "tsc && node dist/tests/runDatabaseTests.js --integration",
+    "test:bitflags": "tsc && node dist/tests/bitflagsTest.js",
+    "migrate:bitflags": "tsc && node dist/tests/migrateBitflags.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i358/habbotoh.git"
+  },
+  "author": "i358",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/i358/habbotoh/issues"
+  },
+  "homepage": "https://github.com/i358/habbotoh#readme",
+  "description": "",
+  "dependencies": {
+    "@apollo/server": "^4.12.2",
+    "@as-integrations/fastify": "^3.0.0",
+    "@fastify/cors": "^11.1.0",
+    "axios": "^1.13.2",
+    "base64url": "^3.0.1",
+    "canvas": "^3.2.0",
+    "chess.js": "^1.4.0",
+    "discord.js": "^14.22.1",
+    "dotenv": "^17.2.2",
+    "fastify": "^5.6.0",
+    "gnode-api": "^0.2.18",
+    "html2canvas": "^1.4.1",
+    "ioredis": "^5.3.2",
+    "js-yaml": "^4.1.0",
+    "moment": "^2.30.1",
+    "pg": "^8.11.3",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/pg": "^8.10.9"
+  }
+}

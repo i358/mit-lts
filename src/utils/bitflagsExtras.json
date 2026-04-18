@@ -1,0 +1,34 @@
+{
+  "administrator": {
+    "description": "Tüm yetkilere sahip",
+    "permissions": [
+      "MANAGE_TRAININGS",
+      "GIVE_BADGES",
+      "VIEW_BADGES",
+      "MANAGE_TRANSFERS",
+      "MANAGE_WARNS",
+      "MANAGE_BADGES",
+      "DOWN_BADGES",
+      "GIVE_MULTIBADGES",
+      "GIVE_SALARY",
+      "MANAGE_SALARY",
+      "GIVE_AFK_WARN"
+    ]
+  },
+  "badge_manager": {
+    "description": "Badge yönetimi yetkileri",
+    "permissions": [
+      "GIVE_BADGES",
+      "VIEW_BADGES",
+      "MANAGE_BADGES",
+      "DOWN_BADGES"
+    ]
+  },
+  "salary_manager": {
+    "description": "Maaş yönetimi yetkileri",
+    "permissions": [
+      "GIVE_SALARY",
+      "MANAGE_SALARY"
+    ]
+  }
+}

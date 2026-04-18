@@ -1,0 +1,372 @@
+{
+  "Memurlar": {
+    "id": 99165,
+    "ranks": [
+      "Stajyer",
+      "Memur I",
+      "Memur II",
+      "Memur III",
+      "Memur IV",
+      "Memur V",
+      "Kıdemli Memur I",
+      "Kıdemli Memur II",
+      "Kıdemli Memur III",
+      "Elit Memur I",
+      "Elit Memur II",
+      "Elit Memur III",
+      "Özel Ajan"
+    ],
+    "duration": 30
+  },
+  "Güvenlik Ekibi": {
+    "id": 99128,
+    "ranks": [
+      "Deneme Güvenlik",
+      "Güvenlik Memuru 1",
+      "Güvenlik Memuru 2",
+      "Güvenlik Memuru 3",
+      "Güvenlik Danışmanı 1",
+      "Güvenlik Danışmanı 2",
+      "Güvenlik Danışmanı 3",
+      "Seçkin Güvenlik",
+      "Güvenlik Şefi"
+    ],
+    "duration": 40
+  },
+  "Eğitim Ekibi": {
+    "id": 99129,
+    "ranks": [
+      "Eğitmen I",
+      "Eğitmen II",
+      "Eğitmen III",
+      "Kıdemli Eğitmen",
+      "Eğitim Şefi",
+      "Eğitim Generali",
+      "Eğitim Koordinatörü",
+      "Yönetici Eğitmen",
+      "Eğitim Müdürü",
+      "Eğitim Başkanı Ast.",
+      "Eğitim Başkanı"
+    ],
+    "duration": 50
+  },
+  "Yasal İşler": {
+    "id": 99130,
+    "ranks": [
+      "Araştırmacı I",
+      "Araştırmacı II",
+      "Araştırmacı III",
+      "Kamu Sekreteri",
+      "Hukuk Danışmanı I",
+      "Hukuk Danışmanı II",
+      "Hukuk Danışmanı III",
+      "Araştırmacı Şefi",
+      "Yasal Temsilci"
+    ],
+    "duration": 55
+  },
+  "Yüksek Rütbe": {
+    "id": 99131,
+    "ranks": [
+      "Komutan I",
+      "Komutan II",
+      "Komutan III",
+      "Yönetici",
+      "Genç Yönetici",
+      "Gözetmen",
+      "Baş Gözetmen",
+      "Müfettiş"
+    ],
+    "duration": 60
+  },
+  "Diplomatlar": {
+    "id": 99132,
+    "ranks": [
+      "Deneme Senatörü",
+      "Senatör Asst.",
+      "Senatör",
+      "Genç Senatör",
+      "Kıdemli Senatör",
+      "Şef Senatör Asst.",
+      "Şef Senatör",
+      "Yönetici Senatör Yard.",
+      "Yönetici Senatör",
+      "İcra Senatörü Asst.",
+      "İcra Senatörü",
+      "Şef Yönetici Senatör Ast",
+      "Şef Yönetici Senatör",
+      "Baş Senatör"
+    ],
+    "duration": 75
+  },
+  "Operasyon Yetkilileri": {
+    "id": 99135,
+    "ranks": [
+      "Program Uzmanı",
+      "Güvenlik Uzmanı",
+      "Eğitim Uzmanı",
+      "İnsan Kaynakları Uzmanı",
+      "Bilgisayar Teknik Uzmanı",
+      "Kalite Güvence Uzmanı",
+      "Sözleşme Uzmanı",
+      "Tedarik Uzmanı",
+      "Mağdur Avukat Koordinatörü",
+      "İstihbarat Operasyon Sorumlusu",
+      "OY Dept. Komutanı",
+      "OY Komutanı"
+    ],
+    "duration": 85
+  },
+  "Dış İşler Bakanlığı": {
+    "id": 99134,
+    "ranks": [
+      "Deneme Bölge Savcısı",
+      "Bölge Savcısı Asistanı",
+      "Yardımcı Bölge Savcısı",
+      "Bölge Savcısı",
+      "Savcı Asistanı",
+      "Savcı",
+      "Baş Savcı"
+    ],
+    "duration": 100
+  },
+  "Yönetim Bürosu": {
+    "id": 99133,
+    "ranks": [
+      "Deneme Y.B Üyesi",
+      "Resepsiyon Müdürü",
+      "Depo Görevlisi",
+      "Depo Gözetmen Yardımcısı",
+      "Depo Gözetmeni",
+      "Kıdemli Şansölye",
+      "Yönetici",
+      "Kıdemli Yönetici",
+      "Yüce Yönetici",
+      "Baş Yönetici"
+    ],
+    "duration": 110
+  },
+  "Görevliler": {
+    "id": 99140,
+    "ranks": [
+      "Deneme Görevlisi",
+      "Asistan Görevlisi",
+      "Gişe Görevlisi",
+      "Güvenlik Görevlisi",
+      "Eğitmen Görevlisi",
+      "Dış İşler Görevlisi",
+      "Halkla İlişkiler Görevlisi",
+      "Ajan Görevlisi",
+      "Oda Görevlisi",
+      "Denetim Görevlisi",
+      "Seçkin Görevlisi",
+      "Analiz Görevlisi",
+      "Operasyon Görevlisi",
+      "Hukuk Görevlisi",
+      "İstihbarat Görevlisi",
+      "Lider Görevlisi",
+      "Asayiş Görevlisi",
+      "Görevlilerin Başı"
+    ],
+    "duration": 115
+  },
+  "Room CTRL": {
+    "id": 99138,
+    "ranks": [
+      "Oda Temsilcisi Asst",
+      "Oda Temsilcisi Yard",
+      "Oda Temsilcisi",
+      "Deneme Oda Yöneticisi",
+      "Oda Denetleyicisi",
+      "Oda Kontrol",
+      "Oda Müdürü"
+    ],
+    "duration": 120
+  },
+  "İç İşler Bakanlığı": {
+    "id": 99137,
+    "ranks": [
+      "İç İşleri Yard.",
+      "İç İşleri Sorumlusu",
+      "İç İşleri Müfettiş Sekreteri",
+      "İç İşleri Müfettişi",
+      "İç İşleri Baş Müfettiş",
+      "İç İşler Bakanı Yrdm",
+      "İç İşler Bakanı",
+      "İç İşleri Amiri"
+    ],
+    "duration": 130
+  },
+  "Müdürler": {
+    "id": 99136,
+    "ranks": [
+      "Deneme Müdürü",
+      "Hazine Müdürü",
+      "Baş İstibharat Müdürü",
+      "Risk Yönetimi Başkanı",
+      "Baş Hukuk Sorumlusu",
+      "Mali İşleri Şefi",
+      "Baş Yönetici"
+    ],
+    "duration": 140
+  },
+  "Halk Ve İlişkiler": {
+    "id": 99141,
+    "ranks": [
+      "Deneme Adalet Kolları",
+      "Adalet Kolları",
+      "Adalet Sorumlusu",
+      "Karar Kolu",
+      "Karar Şefi",
+      "Halk İlişkiler Müdürü",
+      "Halkla İlişkiler Başkanı"
+    ],
+    "duration": 150
+  },
+  "Üst Düzey Yönetim": {
+    "id": 99142,
+    "ranks": [
+      "Deneme Üst Yönetim",
+      "Özel Operasyon Başkanı",
+      "İşe Alım Müdürü",
+      "Ticaret Başkanı",
+      "Genç Yönetmen",
+      "Yönetmen Asistan",
+      "Yönetmen",
+      "Kıdemli Yönetmen",
+      "Baş Müdürü Asistanı",
+      "U.D.Y Müdürü Asistanı",
+      "U.D.Y Müdürü"
+    ],
+    "duration": 160
+  },
+  "Liderler": {
+    "id": 99139,
+    "ranks": [
+      "Deneme Lider",
+      "Güvenlik Lideri",
+      "Eğitimci Lideri",
+      "Tecrübeli Lider",
+      "İşletme Lideri",
+      "Üstün Lider",
+      "Yargı Lideri",
+      "İl Lideri",
+      "Federal Lider",
+      "Mutlak Yetkili",
+      "Belediye Başkanı Ast.",
+      "Belediye Başkanı"
+    ],
+    "duration": 180
+  },
+  "Başbakan": {
+    "id": 99143,
+    "ranks": [
+      "Deneme Başbakan",
+      "Başbakan Adayı",
+      "Başbakan Danışmanı",
+      "Başbakan Vekili",
+      "Başbakan Asistanı",
+      "Başbakan Yardımcısı",
+      "Başbakan",
+      "Uluslararası Başbakanı",
+      "Cumhurbaşkanı Adayı"
+    ],
+    "duration": 230
+  },
+  "Cumhurbaşkanı": {
+    "id": 99144,
+    "ranks": [
+      "Deneme Cumhurbaşkanları",
+      "Cumhurbaşkanı Asistanı",
+      "Deneme Cumhurbaşkanı Yardmcısı",
+      "Cumhurbaşkanı Yardımcısı",
+      "Cumhurbaşkanı",
+      "Uluslararası Cumhurbaşkanı"
+    ],
+    "duration": 260
+  },
+  "İstihbarat": {
+    "id": 99145,
+    "ranks": [
+      "Deneme İstihbarat",
+      "Yardımcı İstihbarat",
+      "Denetimci İstihbarat",
+      "Tecrübeli İstihbarat",
+      "İstihbarat Yöneticisi",
+      "İstihbarat"
+    ],
+    "duration": 300
+  },
+  "Elçiler": {
+    "id": 99148,
+    "ranks": [
+      "Elçi Asistanı",
+      "Deneme Elçi Yardmcısı",
+      "Elçi Yardımcısı",
+      "Deneme Elçi",
+      "Büyük Elçi",
+      "Baş Elçi"
+    ],
+    "duration": 360
+  },
+  "Direktör": {
+    "id": 99146,
+    "ranks": [
+      "Deneme Direktör",
+      "Yardımcı Direktör",
+      "Denetimci Direktör",
+      "Tecrübeli Direktör",
+      "Amiral Direktör",
+      "Genel Direktör",
+      "Yönetici Direktör",
+      "Direktör",
+      "Eş Sahip adayı"
+    ],
+    "duration": 400
+  },
+  "Eş Sahip": {
+    "id": 99149,
+    "ranks": [],
+    "duration": 9000
+  },
+  "Üst Kurul": {
+    "id": 99150,
+    "ranks": [],
+    "duration": 9000
+  },
+  "Oda Temsilcisi": {
+    "id": 99151,
+    "ranks": [],
+    "duration": 9000
+  },
+  "Oda Sorumlusu": {
+    "id": 99152,
+    "ranks": [],
+    "duration": 9000
+  },
+  "CEO": {
+    "id": 99153,
+    "ranks": [],
+    "duration": 9000
+  },
+  "Black Room": {
+    "id": 99154,
+    "ranks": [],
+    "duration": 9000
+  },
+  "Green Room": {
+    "id": 99155,
+    "ranks": [],
+    "duration": 9000
+  },
+  "White Room": {
+    "id": 99175,
+    "ranks": [],
+    "duration": 9000
+  },
+  "Founders": {
+    "id": 103063,
+    "ranks": [],
+    "duration": 9000
+  }
+}

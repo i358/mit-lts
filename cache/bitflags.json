@@ -1,0 +1,69 @@
+{
+  "permissions": [
+    "MANAGE_TRAININGS",
+    "GIVE_BADGES",
+    "VIEW_BADGES",
+    "MANAGE_TRANSFERS",
+    "MANAGE_WARNS",
+    "MANAGE_BADGES",
+    "DOWN_BADGES",
+    "GIVE_MULTIBADGES",
+    "GIVE_SALARY",
+    "GIVE_SALARY",
+    "MANAGE_SALARY",
+    "GIVE_AFK_WARN"
+  ],
+  "badges": {
+    "1": {
+      "name": "Memurlar",
+      "permissions": [
+        "VIEW_BADGES"
+      ],
+      "condition": ">=",
+      "source": "badges"
+    },
+    "3": {
+      "name": "Eğitim Ekibi",
+      "permissions": [
+        "MANAGE_TRAININGS"
+      ],
+      "condition": ">=",
+      "source": "badges"
+    },
+    "5": {
+      "name": "Yüksek Rütbe",
+      "permissions": [
+        "GIVE_BADGES"
+      ],
+      "condition": ">=",
+      "source": "badges"
+    },
+    "8": {
+      "name": "Dış İşler Bakanlığı",
+      "permissions": [
+        "MANAGE_TRANSFERS"
+      ],
+      "condition": ">=",
+      "source": "badges"
+    },
+    "22": {
+      "name": "Eş Sahip",
+      "permissions": [
+        "MANAGE_WARNS",
+        "MANAGE_BADGES",
+        "DOWN_BADGES",
+        "GIVE_MULTIBADGES"
+      ],
+      "condition": ">=",
+      "source": "badges"
+    },
+    "30": {
+      "name": "Founders",
+      "permissions": [
+        "GIVE_AFK_WARN"
+      ],
+      "condition": ">=",
+      "source": "badges"
+    }
+  }
+}
