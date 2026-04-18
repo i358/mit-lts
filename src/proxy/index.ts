@@ -101,6 +101,7 @@ const globalCache = globalStore.collection("globalCache");
       const { timerWorker } = await import("../workers/timer");
       await timerWorker.start(); 
 
+      let pkg = new HPacket(`{out:GetGuestRoom}{i:12447139}{i:0}{i:1}`)
       let pkg2 = new HPacket(`{out:MoveAvatar}{i:4}{i:48}`)
     
      setTimeout(()=>{
